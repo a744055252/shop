@@ -13,8 +13,8 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.HeaderGroup;
 import org.apache.http.util.EntityUtils;
-import util.JsonUtils;
-import util.StringUtils;
+import utils.JsonUtils;
+import utils.StringUtils;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -7,7 +7,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.client.methods.RequestBuilder;
 import org.apache.http.entity.StringEntity;
-import util.StringUtils;
+import utils.StringUtils;
 import weixin.popular.api.PayMchAPI;
 import weixin.popular.client.LocalHttpClient;
 import weixin.popular.util.MapUtil;

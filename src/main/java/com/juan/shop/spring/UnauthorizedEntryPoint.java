@@ -5,7 +5,7 @@ import com.juan.shop.token.ResultCode;
 import com.juan.shop.utils.ResponseUtils;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
-import util.JsonUtils;
+import utils.JsonUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

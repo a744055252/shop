@@ -5,7 +5,7 @@ import com.jd.open.api.sdk.JdClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import util.JsonUtils;
+import utils.JsonUtils;
 
 import javax.annotation.PostConstruct;
 
@@ -22,7 +22,7 @@ public class JdManagerImpl implements JdManager {
 
     private JdClient client;
 
-    @PostConstruct
+//    @PostConstruct
     public void init(){
         log.info("初始化jdclient, 参数：{}", JsonUtils.encodeJson(jdProperties));
         client = new DefaultJdClient(jdProperties.getServerUrl(),

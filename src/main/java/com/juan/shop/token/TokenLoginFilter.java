@@ -12,7 +12,7 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
-import util.JsonUtils;
+import utils.JsonUtils;
 
 import javax.servlet.FilterChain;
 import javax.servlet.http.HttpServletRequest;

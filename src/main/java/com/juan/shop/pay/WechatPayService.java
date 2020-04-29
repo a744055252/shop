@@ -11,8 +11,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-import util.IdUtils;
-import util.JsonUtils;
+import utils.IdUtils;
+import utils.JsonUtils;
 import weixin.popular.api.PayMchAPI;
 import weixin.popular.bean.paymch.Transfers;
 import weixin.popular.bean.paymch.TransfersResult;
@@ -28,7 +28,7 @@ import java.util.Optional;
  * @author guanhuan_li
  */
 @Slf4j
-//@Component
+@Component
 public class WechatPayService implements IWechatPayService {
 
     /** 支付到银行卡付款单号前缀 */
@@ -56,7 +56,7 @@ public class WechatPayService implements IWechatPayService {
     @Autowired
     private WechatPayInfoRepository wechatPayInfoRepository;
 
-    @PostConstruct
+//    @PostConstruct
     public void init(){
 
         this.mch_appid = wechatAuthProperties.getMchAppid();

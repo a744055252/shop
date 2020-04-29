@@ -15,7 +15,7 @@ import jd.union.open.order.query.response.UnionOpenOrderQueryResponse;
 import jd.union.open.promotion.common.get.request.PromotionCodeReq;
 import jd.union.open.promotion.common.get.request.UnionOpenPromotionCommonGetRequest;
 import jd.union.open.promotion.common.get.response.UnionOpenPromotionCommonGetResponse;
-import util.JsonUtils;
+import utils.JsonUtils;
 
 /**
  * @author guanhuan_li

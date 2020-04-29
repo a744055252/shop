@@ -28,7 +28,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import util.JsonUtils;
+import utils.JsonUtils;
 import weixin.popular.bean.sns.Jscode2sessionResult;
 import weixin.popular.bean.wxa.WxaDUserInfo;
 import weixin.popular.util.WxaUtil;

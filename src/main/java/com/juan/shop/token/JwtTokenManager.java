@@ -1,7 +1,6 @@
 package com.juan.shop.token;
 
 import com.juan.shop.spring.TokenProperties;
-import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -9,8 +8,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
-import util.DateUtils;
-import util.StringUtils;
+import utils.DateUtils;
+import utils.StringUtils;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
